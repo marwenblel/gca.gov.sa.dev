@@ -1,0 +1,7 @@
+name: 'Site Name'
+type: module
+description: 'A custom module to display the site name in an H2 HTML tag.'
+core_version_requirement: ^10
+package: CUSTOM
+dependencies:
+  - drupal:block

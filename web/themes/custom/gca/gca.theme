@@ -1,0 +1,24 @@
+<?php
+use Drupal\Core\Language\LanguageManagerInterface;
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter() for regions.
+ */
+function gca_theme_suggestions_region_alter(array &$suggestions, array $variables) {
+    if(isset($variables['region'])) {
+      $region = $variables['region'];
+      $suggestions[] = 'region__' . $region;
+    }
+}
+/**
+ * Implements template_preprocess_html().
+ */
+function gca_preprocess_html(&$variables) {
+    // Get the current language code.
+    $language_code = \Drupal::languageManager()->getCurrentLanguage()->getId();
+
+    // Add the language code as a class to the body tag.
+    $variables['attributes']['class'][] = 'lang-' . $language_code;
+}
+
+

@@ -1,0 +1,15 @@
+<?php
+use Drupal\Core\Routing\RouteMatchInterface;
+/**
+ * @file
+ * Site Name module.
+ */
+/**
+ * Implements hook_help().
+ */
+function site_name_help($route_name, \Drupal\Core\Routing\RouteMatchInterface $route_match) {
+    switch ($route_name) {
+        case 'help.page.site_name':
+            return '<p>' . t('Displays the site name in an H3 HTML tag.') . '</p>';
+    }
+}

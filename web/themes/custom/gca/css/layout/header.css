@@ -1,0 +1,50 @@
+/* Importing the font */
+@import url('https://fonts.cdnfonts.com/css/frutiger-lt-arabic');
+.lang-en #header {
+    width: 100%;
+    height: 780px;
+    background: #015a4e url('../../images/header-bg-en.png') no-repeat;
+    background-size: cover;
+}
+.lang-ar #header {
+    width: 100%;
+    height: 780px;
+    background: #015a4e url('../../images/header-bg-ar.png') no-repeat;
+    background-size: cover;
+}
+#header .row {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+}
+#top-header-right {
+    padding: 10px;
+}
+#top-header-right #block-gca-sitename * {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    font-family: 'Frutiger LT Arabic', sans-serif;
+}
+#top-header-left {
+    padding: 10px;
+}
+#top-header-left #block-gca-languageswitcher ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#top-header-left #block-gca-languageswitcher ul li {
+    display: inline;
+}
+#top-header-left #block-gca-languageswitcher ul li.is-active {
+    display: none;
+}
+#top-header-left #block-gca-languageswitcher ul li a {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 31px;
+    font-weight: 300;
+    font-family: 'Frutiger LT Arabic', sans-serif;
+}

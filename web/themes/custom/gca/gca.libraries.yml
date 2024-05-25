@@ -1,0 +1,11 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      css/base/style.css: {}
+    layout:
+      css/layout/header.css: {}
+  js:
+    js/gca.js: {}
+  dependencies:
+    - core/jquery
