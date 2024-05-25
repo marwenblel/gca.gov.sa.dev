@@ -1,0 +1,6 @@
+name: 'Site Logo'
+type: module
+description: 'Custom module to render the site logo as a block.'
+core_version_requirement: ^10
+package: Custom
+version: 1.0

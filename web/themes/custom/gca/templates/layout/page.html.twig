@@ -22,6 +22,19 @@
        {% endif %}
        <!--End Top header left-->
       </div>
+
+
+      <div class="row">
+            <!-- Begin highlighted header right-->
+            {% if page.highlighted_header_right %}
+                <div id="highlighted-header-right" class="column">
+                    <div class="content">
+                        {{ page.highlighted_header_right }}
+                    </div>
+                </div>
+            {% endif %}
+            <!--End highlighted header right-->
+      </div>
     </div>
     <div id="main-wrapper">
       <div id="main">

@@ -48,3 +48,31 @@
     font-weight: 300;
     font-family: 'Frutiger LT Arabic', sans-serif;
 }
+
+
+#highlighted-header-right .region-highlighted_header_right {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 10px;
+}
+#highlighted-header-right .region-highlighted_header_right nav ul {
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+#highlighted-header-right .region-highlighted_header_right nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+#highlighted-header-right .region-highlighted_header_right nav ul li a {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    font-family: 'Frutiger LT Arabic', sans-serif;
+    opacity: 81%;
+}
+
+#block-gca-sitelogo img {
+    width: 170px;
+    height: 74px;
+}
