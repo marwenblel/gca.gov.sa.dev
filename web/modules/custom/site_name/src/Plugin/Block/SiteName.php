@@ -1,11 +1,9 @@
 <?php
-
 namespace Drupal\site_name\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Config\ConfigFactoryInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
-
 /**
  * Provides a 'Site Name' Block.
  *
@@ -25,5 +23,4 @@ class SiteName extends BlockBase {
             '#allowed_tags' => ['h3'],
         ];
     }
-
 }

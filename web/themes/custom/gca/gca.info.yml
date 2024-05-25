@@ -12,5 +12,6 @@ regions:
   highlighted_header_right: 'Highlighted header right'
   highlighted_header_left: 'Highlighted header left'
   middle_header_top: 'Middle header top'
+  middle_header_bottom: 'Middle header bottom'
   bottom_header: 'Bottom header'
   content: Content

@@ -1,39 +1,60 @@
 <div id="page-wrapper">
   <div id="page">
     <div id="header">
-      <div class="row">
-        <!-- Begin Top header right-->
-        {% if page.top_header_right %}
-         <div id="top-header-right" class="column">
-           <div class="content">
-             {{ page.top_header_right }}
-           </div>
-         </div>
-       {% endif %}
-       <!--End Top header right-->
+      <div class="content">
+        <div id="site-name_lang-switcher_toggle-light" class="row">
+              <!-- Begin Top header right-->
+              {% if page.top_header_right %}
+                  <div id="top-header-right" class="column">
+                      <div class="content">
+                          {{ page.top_header_right }}
+                      </div>
+                  </div>
+              {% endif %}
+              <!--End Top header right-->
 
-       <!-- Begin Top header left-->
-       {% if page.top_header_left %}
-         <div id="top-header-left" class="column">
-           <div class="content">
-             {{ page.top_header_left }}
-           </div>
-         </div>
-       {% endif %}
-       <!--End Top header left-->
-      </div>
+              <!-- Begin Top header left-->
+              {% if page.top_header_left %}
+                  <div id="top-header-left" class="column">
+                      <div class="content">
+                          {{ page.top_header_left }}
+                      </div>
+                  </div>
+              {% endif %}
+              <!--End Top header left-->
+          </div>
+        <div id="logo_menu_search" class="row">
+              <!-- Begin highlighted header right-->
+              {% if page.highlighted_header_right %}
+                  <div id="highlighted-header-right" class="column">
+                      <div class="content">
+                          {{ page.highlighted_header_right }}
+                      </div>
+                  </div>
+              {% endif %}
+              <!--End highlighted header right-->
 
-
-      <div class="row">
-            <!-- Begin highlighted header right-->
-            {% if page.highlighted_header_right %}
-                <div id="highlighted-header-right" class="column">
+            <!-- Begin highlighted header left-->
+            {% if page.highlighted_header_left %}
+                <div id="highlighted-header-left" class="column">
                     <div class="content">
-                        {{ page.highlighted_header_right }}
+                        {{ page.highlighted_header_left }}
+                    </div>
+                </div>
+            {% endif %}
+            <!--End highlighted header left-->
+          </div>
+        <div id="site-slogan" class="row">
+            <!-- Begin middle header top-->
+            {% if page.middle_header_top %}
+                <div id="middle-header-top" class="column">
+                    <div class="content">
+                        {{ page.middle_header_top }}
                     </div>
                 </div>
             {% endif %}
             <!--End highlighted header right-->
+        </div>
       </div>
     </div>
     <div id="main-wrapper">
