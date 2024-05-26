@@ -1,0 +1,7 @@
+name: 'Darkmode'
+type: module
+description: 'A custom module to add a dark mode switcher block.'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - drupal:block

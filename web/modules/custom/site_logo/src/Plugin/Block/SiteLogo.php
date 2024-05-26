@@ -27,8 +27,8 @@ class SiteLogo extends BlockBase {
             $logo = $basePath. 'sites/default/files/'.$filename;
         }
         return [
-            '#markup' => '<img src="' . htmlspecialchars($logo) . '" alt="' . htmlspecialchars($site_name) . '">',
-            '#allowed_tags' => ['img'],
+            '#markup' => '<a href="http://localhost/gca.gov.sa.dev/web"><img src="' . htmlspecialchars($logo) . '" alt="' . htmlspecialchars($site_name) . '"></a>',
+            '#allowed_tags' => ['img', 'a'],
         ];
 
     }

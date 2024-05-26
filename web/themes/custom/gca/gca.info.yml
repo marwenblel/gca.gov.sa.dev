@@ -14,4 +14,6 @@ regions:
   middle_header_top: 'Middle header top'
   middle_header_bottom: 'Middle header bottom'
   bottom_header: 'Bottom header'
+
+
   content: Content

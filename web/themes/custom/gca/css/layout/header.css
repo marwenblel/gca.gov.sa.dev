@@ -1,5 +1,6 @@
 /* Importing the font */
 @import url('https://fonts.cdnfonts.com/css/frutiger-lt-arabic');
+/*CSS FOR HEADER TEMPLATE*/
 #header .content {
     width: 80%;
     margin-left: auto;
@@ -22,9 +23,11 @@
     grid-template-columns: 3fr 1fr;
     gap: 10px;
 }
+/*CSS FOR TOP HEADER RIGHT*/
 #top-header-right {
     padding: 10px;
 }
+/*CSS FOR BLOCK GCA SITENAME*/
 #top-header-right #block-gca-sitename * {
     color: #ffffff;
     font-size: 20px;
@@ -32,9 +35,24 @@
     font-weight: 300;
     font-family: 'Frutiger LT Arabic', sans-serif;
 }
+/*CSS FOR TOP HEADER LEFT*/
 #top-header-left {
     padding: 10px;
 }
+#top-header-left .region-top_header_left {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+/*CSS FOR BLOCK GCA EASYBROWSING*/
+#block-gca-easybrowsing p {
+    margin: 0;
+    padding: 0;
+}
+#block-gca-easybrowsing a {
+    color: #ffffff;
+}
+/*CSS FOR BLOCK GCA LANGUAGESWITCHER*/
 #top-header-left #block-gca-languageswitcher ul {
     margin: 0;
     padding: 0;
@@ -54,7 +72,7 @@
     font-family: 'Frutiger LT Arabic', sans-serif;
 }
 
-
+/*CSS FOR REGION HIGHTLIGHTED HEADER RIGHT*/
 #highlighted-header-right .region-highlighted_header_right {
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -76,12 +94,12 @@
     font-family: 'Frutiger LT Arabic', sans-serif;
     opacity: 81%;
 }
-
+/*CSS FOR BLOCK GCA SITELOGO*/
 #block-gca-sitelogo img {
     width: 170px;
     height: 74px;
 }
-
+/*CSS FOR LOGO LENU SEARCH TEMPLATE*/
 #logo_menu_search.row  {
     border-top: 1px solid;
     border-bottom: 1px solid;
@@ -90,36 +108,8 @@
     border-image-width: 1;
     border-image-outset: 5;
     border-image-repeat: stretch;
-
 }
-
-/*
-#logo_menu_search.row {
-    position: relative;
-    padding: 20px;
-}
-#logo_menu_search.row::before,
-#logo_menu_search.row::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 10px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-#logo_menu_search.row::before {
-    background-image: url(../../images/line.png);
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-#logo_menu_search.row::after {
-    background-image: url(../../images/line.png);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}*/
-
+/*CSS FOR BLOCK GCA SITENAME SLOGAN TEXT*/
 #block-gca-sitename-slogan-text p {
     color: #ffffff;
     font-size: 30px;

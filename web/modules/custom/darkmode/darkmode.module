@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function darkmode_theme() {
+    return [
+        'darkmode_switcher' => [
+            'variables' => [],
+            'template' => 'darkmode-switcher',
+        ],
+    ];
+}
