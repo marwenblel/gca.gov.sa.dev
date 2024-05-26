@@ -53,7 +53,18 @@
                     </div>
                 </div>
             {% endif %}
-            <!--End highlighted header right-->
+            <!--End Middle header right-->
+        </div>
+        <div id="vision-century" class="row">
+              <!-- Begin Middle header bottom-->
+              {% if page.middle_header_bottom %}
+                  <div id="middle-header-bottom" class="column">
+                      <div class="content">
+                          {{ page.middle_header_bottom }}
+                      </div>
+                  </div>
+              {% endif %}
+              <!--End Middle header bottom-->
         </div>
       </div>
     </div>
