@@ -77,11 +77,22 @@
               {% endif %}
               <!--End Bottom header-->
         </div>
-
       </div>
     </div>
     <div id="main-wrapper">
       <div id="main">
+          <div id="court-news" class="row">
+              <!-- Begin Highlighted first-->
+              {% if page.highlighted_first %}
+                  <div id="highlighted-first">
+                      <div class="content">
+                          {{ page.highlighted_first }}
+                      </div>
+                  </div>
+              {% endif %}
+              <!--End Highlighted first-->
+          </div>
+
           {{ page.content }}
       </div>
     </div>
