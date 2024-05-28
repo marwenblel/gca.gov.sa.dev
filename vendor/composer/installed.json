@@ -502,6 +502,76 @@
             "install-path": "../doctrine/lexer"
         },
         {
+            "name": "drupal/blazy",
+            "version": "3.0.7",
+            "version_normalized": "3.0.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/blazy.git",
+                "reference": "3.0.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/blazy-3.0.7.zip",
+                "reference": "3.0.7",
+                "shasum": "741149fa3ff05bdd7cf60304a0bd839f52294eb3"
+            },
+            "require": {
+                "drupal/core": ">=9.4"
+            },
+            "conflict": {
+                "drupal/csp": "<1.12"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.7",
+                    "datestamp": "1716736384",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Gaus Surahman",
+                    "homepage": "https://www.drupal.org/u/gausarts",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://www.drupal.org/node/2663268/committers",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "geek-merlin",
+                    "homepage": "https://www.drupal.org/user/229048"
+                },
+                {
+                    "name": "sun",
+                    "homepage": "https://www.drupal.org/user/54136"
+                }
+            ],
+            "description": "Provides basic bLazy integration for lazy loading and multi-serving images.",
+            "homepage": "https://drupal.org/project/blazy",
+            "keywords": [
+                "Drupal",
+                "bLazy",
+                "lazyload"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/blazy",
+                "issues": "https://drupal.org/project/issues/blazy"
+            },
+            "install-path": "../../web/modules/contrib/blazy"
+        },
+        {
             "name": "drupal/core",
             "version": "10.2.6",
             "version_normalized": "10.2.6.0",
@@ -835,6 +905,124 @@
             ],
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core.",
             "install-path": null
+        },
+        {
+            "name": "drupal/slick",
+            "version": "3.0.2",
+            "version_normalized": "3.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/slick.git",
+                "reference": "3.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/slick-3.0.2.zip",
+                "reference": "3.0.2",
+                "shasum": "e77f46f4897b4a7ca4dd55e43f57cfec9bbb773e"
+            },
+            "require": {
+                "drupal/blazy": "^3.0",
+                "drupal/core": ">=9.4"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.2",
+                    "datestamp": "1715948640",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Contributors",
+                    "homepage": "https://www.drupal.org/node/2232779/committers",
+                    "role": "Contributors"
+                },
+                {
+                    "name": "shadcn",
+                    "homepage": "https://www.drupal.org/user/571032"
+                },
+                {
+                    "name": "thalles",
+                    "homepage": "https://www.drupal.org/user/3589086"
+                }
+            ],
+            "description": "Slick carousel, the last carousel you'll ever need.",
+            "homepage": "https://drupal.org/project/slick",
+            "keywords": [
+                "Drupal",
+                "carousel",
+                "slideshow"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/slick",
+                "issues": "https://drupal.org/project/issues/slick"
+            },
+            "install-path": "../../web/modules/contrib/slick"
+        },
+        {
+            "name": "drupal/slick_views",
+            "version": "3.0.2",
+            "version_normalized": "3.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/slick_views.git",
+                "reference": "3.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/slick_views-3.0.2.zip",
+                "reference": "3.0.2",
+                "shasum": "51c35fe412e2f288e1e9f4f0efba46e2745bf068"
+            },
+            "require": {
+                "drupal/core": ">=9.4",
+                "drupal/slick": "^3.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.2",
+                    "datestamp": "1715947969",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "gausarts",
+                    "homepage": "https://www.drupal.org/user/159062"
+                }
+            ],
+            "description": "Provides Slick carousel integration with Views. Slick carousel, the last carousel you'll ever need.",
+            "homepage": "https://drupal.org/project/slick_views",
+            "keywords": [
+                "Drupal",
+                "carousel",
+                "slideshow",
+                "views"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/slick_views",
+                "issues": "https://drupal.org/project/issues/slick_views"
+            },
+            "install-path": "../../web/modules/contrib/slick_views"
         },
         {
             "name": "egulias/email-validator",
