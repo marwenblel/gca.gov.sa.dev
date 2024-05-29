@@ -120,8 +120,6 @@
 /**/
 #electronic-services-slider.row {
     display: block !important;
-   /* background-color: #00443b;*/
-    width: 80vw;
     margin-top: 100px;
 }
 #electronic-services-slider #bottom-header .content {
@@ -134,8 +132,16 @@
     /*margin-top: 95px!important;
     margin-right: -30px!important;*/
 }
-#block-block-electronic-services .js-view-dom-id-a00b2c364e42c99b0873d70d633ea49b20a78194fa3567e20c90ea91e1651697 {
-    height: 137px!important;
+#block-block-electronic-services .block-content  {
+
+}
+#block-block-electronic-services .block-content .row {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 10px;
+}
+#block-block-electronic-services .block-content .row .content {
+    width: 70vw!important;
 }
 #block-block-electronic-services .slick-track {
     width: 100vw !important;
