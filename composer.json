@@ -16,11 +16,15 @@
     ],
     "require": {
         "composer/installers": "^2.0",
+        "drupal/bootstrap": "^3.30",
+        "drupal/bootstrap_library": "^2.0",
         "drupal/core-composer-scaffold": "^10.2",
         "drupal/core-project-message": "^10.2",
         "drupal/core-recommended": "^10.2",
+        "drupal/quicktabs": "^3.0@alpha",
         "drupal/slick": "^3.0",
         "drupal/slick_views": "^3.0",
+        "drupal/views_bootstrap": "^4.4",
         "drush/drush": "^12.5"
     },
     "conflict": {
