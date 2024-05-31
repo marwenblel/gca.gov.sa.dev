@@ -15,8 +15,8 @@ regions:
   middle_header_bottom: 'Middle header bottom'
   bottom_header: 'Bottom header'
 
-  highlighted_first: 'Highlighted first'
-  highlighted_second: 'Highlighted second'
+  highlighted: 'Highlighted'
 
-
+  content_top: Content top
   content: Content
+  content_bottom: Content bottom

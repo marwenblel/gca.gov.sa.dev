@@ -66,34 +66,25 @@
               {% endif %}
               <!--End Middle header bottom-->
         </div>
-        <div id="electronic-services-slider" class="row">
-              <!-- Begin Bottom header -->
-              {% if page.bottom_header %}
-                  <div id="bottom-header" class="column">
-                      <div class="content">
-                          {{ page.bottom_header }}
-                      </div>
-                  </div>
-              {% endif %}
-              <!--End Bottom header-->
-        </div>
       </div>
-    </div>
+    </div> <!--End Header-->
     <div id="main-wrapper">
       <div id="main">
-          <div id="court-news" class="row">
-              <!-- Begin Highlighted first-->
-              {% if page.highlighted_first %}
-                  <div id="highlighted-first">
+          <div id="content">
+              <!-- Begin highlighted-->
+              {% if page.highlighted %}
+                  <div id="highlighted">
                       <div class="content">
-                          {{ page.highlighted_first }}
+                          {{ page.highlighted }}
                       </div>
                   </div>
               {% endif %}
-              <!--End Highlighted first-->
-          </div>
+              <!--End highlighted-->
 
-          {{ page.content }}
+              {{ page.content_top }}
+              {{ page.content }}
+              {{ page.content_bottom }}
+          </div>
       </div>
     </div>
     <div id="footer-wrapper">
